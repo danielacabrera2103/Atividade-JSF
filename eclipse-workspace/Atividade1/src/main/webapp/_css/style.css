@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+  
+header {
+  background: #be92c2;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #d40cee 3px solid;
+}
+
+h1{
+  margin: 0;
+}
+
+.container-dados{
+	display: flex;
+	align-items: flex-start;
+	gap: 200px;
+	margin-top: 10px;
+}
+
+.dados{
+	display: flex;
+	flex-direction: column;	
+}
+
+a{
+	text-decoration: none;	
+}
+
+img {
+  width: 190px;
+  height: auto;
+  border-radius: 20%;
+}

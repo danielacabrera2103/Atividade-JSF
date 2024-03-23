@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body{
+	padding: 0;
+	margin-left: 0;
+	background-color: #FFF;
+}
+
+.container{
+	display: flex;
+	align-content: center;
+	width: 540px;
+	background-color: #be92c2;
+	border: 2px;
+	border-radius: 10px;
+	margin-left: 200px;	
+}
+
+.form-div{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-left: 15px;
+}
+
+h2{
+	width: 500px;
+	text-align: center;
+}
+
+form{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+input{
+	width: 500px;
+	margin-bottom: 15px;
+}
+
+button{
+	position: relative;
+	left: 50%;
+	width: 250px;
+	height: 30px;
+	margin-bottom: 15px;
+}
